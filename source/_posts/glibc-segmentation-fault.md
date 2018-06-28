@@ -1,5 +1,5 @@
 ---
-title: glibc 更新导致的断错误排查
+title: glibc 更新导致的段错误排查
 date: 2018-06-27 09:37:17
 tags:
 ---

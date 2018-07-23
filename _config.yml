@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: PAT Tech Team Blog
+title: PAT/PTA Team Blog
 subtitle: 
 description:
 keywords:
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://pintia.github.io
+url: https://blog.pintia.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

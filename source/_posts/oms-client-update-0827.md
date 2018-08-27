@@ -19,19 +19,27 @@ OMS 监考系统在暑假期间进行了较大幅度的升级，下文将介绍�
 
 使用方式是在客户端目录下的 
 
-```oms-client-startup.exe.config``` 
+```
+oms-client-startup.exe.config
+``` 
 
 以及
 
- ```bin/oms-client.exe.config``` 
+```
+bin/oms-client.exe.config
+``` 
  
 两个文件中的
 
-```<add key="proxy" value="" />```
+```
+<add key="proxy" value="" />
+```
 
-的 ```value``` 后填入您需要的代理服务器。一个例子如下：
+的 `value` 后填入您需要的代理服务器。一个例子如下：
 
-```<add key="proxy" value="192.168.1.2:3456" />```
+```
+<add key="proxy" value="192.168.1.2:3456" />
+```
 
 期望该功能能为各学校提供更多便利。
 

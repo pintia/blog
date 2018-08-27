@@ -6,6 +6,6 @@ script:
 - npm run build
 after_script:
 - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" ./_config.yml
-- if [ "$TRAVIS_BRANCH" = "master" ]; then npm run deploy; fi
+- if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then npm run deploy; fi
 notifications:
   email: false
